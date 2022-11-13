@@ -1,0 +1,70 @@
+@media (max-width: 740px) {
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #app {
+  }
+
+  .menu-search {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: rgb(65, 57, 57);
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 2px 38px;
+  }
+
+  #content .member-item {
+    width: 100%;
+  }
+
+  .place-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-item {
+    width: 100%;
+  }
+
+  .from-control.hide {
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .from-control {
+    padding: 16px 9px;
+    width: 100%;
+  }
+
+  .contact-two {
+    margin-top: 16px;
+  }
+
+  .btn-submit {
+    padding: 11px 9px;
+    width: 100%;
+  }
+}
